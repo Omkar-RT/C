@@ -1,0 +1,67 @@
+
+### Standard Libraries
+These are included with most C compilers and provide essential functions:
+
+- **`<stdio.h>`**: Input and output functions (e.g., `printf`, `scanf`).
+- **`<stdlib.h>`**: General utilities (e.g., memory allocation, process control).
+- **`<string.h>`**: String handling functions (e.g., `strlen`, `strcpy`).
+- **`<math.h>`**: Mathematical functions (e.g., `sin`, `cos`, `sqrt`).
+- **`<ctype.h>`**: Character handling functions (e.g., `isalpha`, `isdigit`).
+- **`<time.h>`**: Date and time functions (e.g., `time`, `strftime`).
+- **`<assert.h>`**: Diagnostics (e.g., `assert`).
+- **`<errno.h>`**: Error handling (e.g., `errno`, `perror`).
+- **`<float.h>`**: Limits of floating-point types.
+- **`<limits.h>`**: Limits of integral types.
+- **`<stdarg.h>`**: Variable arguments handling (e.g., `va_list`, `va_start`).
+
+### System Libraries
+For interacting with the operating system:
+
+- **`<unistd.h>`**: POSIX operating system API (e.g., `fork`, `exec`, `sleep`).
+- **`<sys/types.h>`**: Definitions for data types used in system calls.
+- **`<sys/stat.h>`**: File status and permissions (e.g., `stat`, `chmod`).
+- **`<fcntl.h>`**: File control operations (e.g., `open`, `fcntl`).
+- **`<sys/wait.h>`**: Macros related to process termination (e.g., `wait`, `WIFEXITED`).
+
+### Networking Libraries
+For network programming:
+
+- **`<arpa/inet.h>`**: Definitions for internet operations (e.g., `inet_pton`, `inet_ntoa`).
+- **`<netinet/in.h>`**: Internet protocol family definitions (e.g., `sockaddr_in`).
+- **`<sys/socket.h>`**: Socket programming (e.g., `socket`, `bind`, `listen`).
+
+### Threading and Concurrency
+For multithreading and synchronization:
+
+- **`<pthread.h>`**: POSIX threads (e.g., `pthread_create`, `pthread_mutex_lock`).
+
+### GUI and Graphics
+For graphical user interfaces and graphics:
+
+- **`<SDL2/SDL.h>`**: Simple DirectMedia Layer 2, a cross-platform graphics library.
+- **`<GL/gl.h>`**: OpenGL header for graphics rendering.
+- **`<gtk/gtk.h>`**: GTK library for creating graphical user interfaces.
+
+### Cryptography and Security
+For encryption and security functions:
+
+- **`<openssl/evp.h>`**: OpenSSL library for cryptographic operations.
+- **`<openssl/ssl.h>`**: OpenSSL library for SSL/TLS operations.
+
+### Additional Libraries
+Other useful libraries for specific purposes:
+
+- **`<ncurses.h>`**: For text-based user interfaces.
+- **`<zlib.h>`**: For data compression.
+- **`<curl/curl.h>`**: For network communication using cURL.
+
+### Platform-Specific Libraries
+These may depend on the operating system:
+
+- **Windows**:
+  - **`<windows.h>`**: Windows API functions and data types.
+  - **`<winsock2.h>`**: Windows socket API.
+
+- **Linux**:
+  - **`<linux/kernel.h>`**: Kernel-specific functions and macros.
+  - **`<sys/ioctl.h>`**: Input/output control operations.

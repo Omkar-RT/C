@@ -4,7 +4,7 @@
 int main(){
 
     // encryption
-    char str[]="kya re bsdk";
+    char str[]="kya bolte";
 
     for (int i = 0; i < strlen(str); i++)
     {
